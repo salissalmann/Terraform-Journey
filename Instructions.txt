@@ -1,0 +1,19 @@
+Start with setting up my initial Linux or EC2 Manually.
+Configure AWS CLI using "sudo apt install awscli"
+Add the AWS Access and AWS Secret keys using "aws configure"
+These can be created/taken from security section of AWS Console.
+
+Install Terraform 
+o	https://itslinuxfoss.com/install-terraform-ubuntu-22-04/
+
+Create a new directory.
+1. Write your terraform script to the new directory.
+2. Initiallize is using "terraform init"    
+   Note: Everytime you make changes to it this step is compulsory to make the changes.
+3. Now "terraform plan" , Run the following command to see what changes Terraform will make without actually applying them.
+   The plan shows you the actions Terraform will take, such as creating or modifying resources.
+4. "terraform apply", This will excute the script.
+
+
+
+
